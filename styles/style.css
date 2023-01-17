@@ -6,11 +6,11 @@ body{
     margin: 0px;
 }
 
-/* Header styles */
+/* Header styles start */
 .header{
     width: 100%;
     height: 750px;
-    background: url(/images/banner/banner3.png)
+    background-image: url(/images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
@@ -32,7 +32,7 @@ body{
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    color: #151414;
+    color: #FFFFFF;
     margin: 0px;
 }
 
@@ -41,20 +41,20 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: #FFFFFF;
     margin: 25px 0px;
 }
 
 .button{
     width: 160px;
     height: 64px;
-    background: #F15B22;
+    background: #FFFFFF;
     border-radius: 5px;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #005FAC;
     border: none;
     cursor: pointer;
     transition: all 0.3s;
@@ -65,5 +65,11 @@ body{
     background-color: #FFFFFF;
 }
 
+/* Header styles end */
 
 
+/* Main styles start */
+
+
+
+/* Main styles end */
