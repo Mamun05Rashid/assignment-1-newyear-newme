@@ -68,8 +68,8 @@
 
 /* Main styles start */
 
-/* Failure part starts */
-.failure{
+/* Failure and Success (EXTRA) parts start */
+.failure, .success{
     width: 80%;
     margin: 130px auto;
     gap: 50px;
@@ -79,11 +79,11 @@
     display: flex;
 }
 
-.failure-img{
+.failure-img, .success-img{
     width: 50%;
 }
 
-.failure-options{
+.failure-options, .success-options{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -107,6 +107,16 @@
     margin-bottom: 12;
 }
 
+.failures-list, .success-list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 8px 0px;
+}
 
+.failures-list p, .success-list p{
+    margin: 0px;
+}
+/* Failure and Success (EXTRA) parts ends */
 
 /* Main styles end */
